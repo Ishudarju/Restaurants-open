@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+
+.box
+  {
+     background-image:url("/headerimg/bg-food.jpeg");
+     background-size: cover;
+     height: 100vh; 
+       
+
+  }   
+
+
+        
+
+
+    </style>
+</head>
+<body>   
+
+<nav class="navbar navbar-expand-lg navbar-light bg-warning fw-bold">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand fw-bold" href="#"> <img src="new pic/spoonblock.png" style="height: 30px; width: 30px;">Ishu's Restoran </a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 " style="padding-left: 30px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">MENU</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
+          </li>          
+        </ul>        
+        <div class="dropdown">
+            <a class="btn btn-warning dropdown-toggle fw-bold" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" >
+              CHECK NOW
+            </a>
+          
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Booking</a></li>
+              <li><a class="dropdown-item" href="#">Our Team</a></li>
+              <li><a class="dropdown-item" href="#">Testimonial</a></li>
+            </ul>
+          </div>
+
+<button class="btn btn-warning fw-bold" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">OFFER</button>
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header" style="background-color: antiquewhite;">
+    <h5 id="offcanvasRightLabel"></h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body" style="background-color:antiquewhite;">
+    <h3>SPECIAL OFFER<img src="new pic/icons8-burger-66.png" style="height: 50px; padding-right: 20px;"></h3>
+    <table class="table">
+     <thead>
+       <tr>
+         <th scope="col">NO</th>
+         <th scope="col">MENU</th>
+         <th scope="col">OPEN&CLOSE TIME</th>
+         <th scope="col">PRICE</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <th scope="row">1</th>
+         <td>Burger</td>
+         <td>8AM to 10AM</td>
+         <td>100$ </td> 
+       </tr>
+       <tr>
+         <th scope="row">2</th>
+         <td>Pizza</td>
+         <td>4PM to 6PM</td>
+         <td>120$</td>
+       </tr>
+       <tr>
+         <th scope="row">3</th>
+         <td>veg salate</td>
+         <td>7AM to 9AM</td>
+         <td>50$</td>
+       </tr>
+     </tbody>
+   </table>
+     <div style="text-align: center;"> <h5>ICE CREAMS AVAILABLE</h5>
+    
+       <div class="d-flex justify-content-evenly">
+          <img src="headerimg/icecream.jpg" style="border-radius: 30px;" height="200px;" width="150px;">
+          <img src="headerimg/icecream2.jpg" style="border-radius: 30px;" height="200px;" width="150px;">
+        </div>
+
+     </div>
+   </div>
+</div>
+         <form class="d-flex">
+             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+             <button class="btn btn-outline-success" type="submit">Search</button>
+         </form>
+        
+      </div>
+    </div>
+  </nav>
+
+
+                                    <!-- heading section --> 
+
+     <!-- <img src="" class="img-fluid" alt="..."> -->
+
+     <div class="box bg-image p-5 text-center shadow-1-strong rounded mb-5 text-dark d-grid">
+      
+      <h5 class="mb-3 h5">Some representative placeholder content for the first slide</h5>
+      <h1 class="mb-3 h2 display-4 fw-bolder">Enjoy Our Delicious Meal</h1>
+       <p>
+    Food is one of the basic necessities of life
+    Food contains nutrients—substances essential for the growth, 
+    repair, and maintenance of body tissues and for the regulation of vital processes.
+     Nutrients provide the energy our bodies need to function.
+        </p>
+</div> 
+
+  
+      
+
+  <!-- **Main section -->
+<div data-aos="fade-up" data-aos-duration="2000">
+ <div class=" row row-cols row-cols-xl-3 row-cols-xxl-4 row-cols-md-2 row-cols-sm-1 g-1 m-5 d-flex justify-content-evenly" >
+
+      
+   <div class="card p-1 shadow p-3 mb-5 bg-body" style="width: 15rem;border-radius: 30px;">
+     <img src="./new pic/icons8-human-64.png" class="card-img-top" style="border-radius: 30px; width: 50px; height: 50px;" alt="...">
+     <div class="card-body">
+       <h5 class="card-title fw-bolder">Master Chefs</h5>
+       <p class="card-text fst-italic"> Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam.</p>
+       
+     </div>
+   </div> 
+ 
+
+   <div class="card p-1 shadow p-3 mb-5 bg-body" style="width: 15rem;border-radius: 30px;">
+     <img src="./new pic/icons8-spoon.png" class="card-img-top" style="border-radius: 30px; height: 50px; width: 50px;padding-top: 10px;" alt="...">
+     <div class="card-body">
+       <h5 class="card-title fw-bolder">Quality Food</h5>
+       <p class="card-text fst-italic">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam.</p>
+       
+     </div>
+   </div>  
+
+   <div class="card p-1 shadow p-3 mb-5 bg-body" style="width: 15rem;border-radius: 30px;">
+     <img src="/new pic/icon-shoping.png" class="card-img-top w-30" style="border-radius: 30px; height: 50px; width: 50px; padding-top: 10px;" alt="...">
+     <div class="card-body">
+       <h5 class="card-title fw-bolder">Online Order</h5>
+       <p class="card-text fst-italic"> Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam.</p>
+
+     </div>
+   </div>
+ 
+   <div class="card p-1 shadow p-3 mb-5 bg-body" style="width: 15rem; height:15rem; border-radius: 30px;">
+     <img src="/new pic/icons8-service-64.png" class="card-img-top" style="border-radius: 30px; height: 50px; width: 50px;" alt="...">
+     <div class="card-body">
+       <h5 class="card-title fw-bolder">24/7 Service</h5>
+       <p class="card-text fst-italic">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam.</p>
+
+     </div>
+   </div>
+ </div>
+</div>
+</div>
+</div>
+
+                 <!-- Aboutus --> 
+          
+<div class="container d-flex  justify-content-center">
+   <div class="row-cols row-cols-sm-12">
+    <div class="fst-italic text-warning fw-bold fs-5" >
+    <p>about us</p>
+    </div>
+    <div class="h2 fw-bolder">
+      Welcome to <img src="./new pic/icons8-spoon.png" style="height: 30px;">Restoran
+    </div><br>
+    <div class="fst-italic">
+     <p>
+       Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. 
+       Aliqu diam amet diam et eos erat ipsum et lorem et sit.
+     
+
+       Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
+       Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, 
+       sed stet lorem sit clita duo justo magna dolore erat amet
+     </p>
+
+ </div>
+    <div class="d-flex ">
+     <div class="max d-flex">
+       <div data-aos="zoom-in"><div class="text-warning fw-bolder h1 " style="font-size: 50px;">
+          15 
+        </div></div>
+       <div class="p-1">Years of <br><div class="fw-bolder" > EXPERIENCE</div></div>
+    </div>
+    <div class="max d-flex">
+       <div data-aos="zoom-in"><div class="text-warning fw-bolder h1 " style="font-size: 50px; padding-left: 50px;">
+         50 
+       </div></div>
+       <div class="p-1">Popular<br><div class="fw-bolder" >  MASTER CHEFS </div></div>
+    </div>
+  </div>
+
+</div>  
+</div>
+
+</div>
+
+
+           <div class="container">
+
+            <div class=" container  row row-cols row-cols-xl-2 row-cols-xxl-2 row-cols-md-1 row-cols-sm-1" style="row-gap: 20px; padding-top: 50px;">
+                 <div class="card mb-3" style="max-width: 800px; border: 0px;">
+                  <div class="row g-2">
+                    <div class="col-md-4">
+                      <img src="new pic/about-4.jpg " style="height: 250px; border-radius: 20px;" class="img-fluid rounded-start" alt="..." >
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Ambience1</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card mb-3" style="max-width: 800px; border: 0px; ">
+                  <div class="row g-2">
+                    <div class="col-md-4">
+                      <img src="new pic/about-2.jpg" style="height: 250px;border-radius: 20px;" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Ambience2</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 2 mins ago</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+            </div>
+
+
+
+  
+            <div class="container d-flex row row-cols row-cols-xl-2 row-cols-xxl-2 row-cols-md-1 row-cols-sm-1" style="row-gap: 20px; padding-top: 50px;">
+                 <div class="card mb-3" style="max-width: 800px; border: 0px; ">
+                  <div class="row g-2">
+                    <div class="col-md-4">
+                      <img src="new pic/about-3.jpg " style="height: 250px; border-radius: 20px;" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Ambience1</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card mb-3" style="max-width: 800px; border: 0px; ">
+                  <div class="row g-2">
+                    <div class="col-md-4">
+                      <img src="new pic/about-1.jpg" style="height: 250px;border-radius: 20px;" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Ambience2</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 2 mins ago</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+            </div>
+
+
+          </div>
+
+
+
+
+                 <!-- Menu*** -->
+    <div style="height: 70px;"></div>
+    <div class="fst-italic text-warning fw-bold fs-5 text-center" >
+        <p>Food Menu</p>
+    </div>
+    <div class="h2 fw-bolder text-center" style="padding-bottom: 30px;">
+     Most Popular Items
+    </div>
+
+    <div class="d-flex justify-content-center" >
+      <div class="menu d-flex">
+         <div class="text-warning fw-bolder h1 " style="font-size: 50px;">
+           <img src="./new pic/icons8-cup-50.png" style="height: 70px; width: 50px;">
+         </div>
+        <div class="p-1">Popular <br><div class="fw-bolder" > Breakfast</div></div>
+     </div>
+     <div class="menu1 d-flex">
+        <div class="text-warning fw-bolder h1 " style="font-size: 50px; padding-left: 50px;">
+          <img src="./new pic/icons8-burger-66.png" style="height: 50px; width: 50px;">
+        </div>
+        <div class="p-1">Special<br><div class="fw-bolder" > Launch</div></div>
+     </div>
+     <div class="menu1 d-flex">
+      <div class="text-warning fw-bolder h1 " style="font-size: 50px; padding-left: 50px;">
+        <img src="new pic/icons8-spoon.png" style="height: 40px; width: 50px;">
+      </div>
+      <div class="p-1">Lovely <br><div class="fw-bolder" > Dinner </div></div>
+     </div>
+  </div>
+
+
+  <!-- <div class="container d-flex menu5 " style="padding-top: 50px;">
+    <div class="none" style="width:1000px;">   
+       <div class="menu1 d-flex" style="grid-column-gap:20px;">
+         <div class="text-warning fw-bolder h1" style="padding-bottom: 20px;">
+           <div data-aos="zoom-in"><img src="new pic/menu-1.jpg" style="border-radius: 40px;"> </div>
+         </div>
+           <div class="p-1 fw-bolder"> <div class="d-flex justify-content-evenly">Chicken Burger <br> <div>$111</div></div>
+             <div class="fw-normal"> <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+             </div>
+           </div>        
+       </div>
+   
+     
+       <div class="menu2 d-flex ">
+         <div class="text-warning fw-bolder h1 " style="font-size: 50px; padding-bottom: 20px;">
+           <div data-aos="zoom-in"><img src="new pic/menu-3.jpg" style="border-radius: 40px;"></div>
+         </div>    
+            <div class="p-1 fw-bolder"> <div class="d-flex justify-content-evenly">Chicken Burger <br> <div>$299</div></div>
+              <div class="fw-normal"><p>Ipsum ipsum clita erat amet dolor justo diam</p></div>
+            </div>   
+       </div> 
+   
+      
+       <div class="menu3 d-flex">
+          <div class="text-warning fw-bolder h1 " style="font-size: 50px; padding-bottom: 20px;">
+           <div data-aos="zoom-in"><img src="new pic/menu-5.jpg" style="border-radius: 40px;"></div>
+          </div>
+            <div class="p-1 fw-bolder"> <div class="d-flex justify-content-evenly">Chicken Burger <br> <div>$105</div></div>
+               <div class="fw-normal"> <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+               </div>
+             </div>    
+       </div>
+   
+       <div class="menu3 d-flex">
+         <div class="text-warning fw-bolder h1 " style="font-size: 50px; padding-bottom: 20px;">
+           <div data-aos="zoom-in"><img src="new pic/menu-8.jpg" style="border-radius: 40px;"></div>
+         </div>
+           <div class="p-1 fw-bolder"> <div class="d-flex justify-content-evenly">Chicken Burger <br> <div>$115</div></div>
+              <div class="fw-normal"> <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+              </div>
+            </div>             
+      </div> -->
+      
+     <!-- </div>  -->
+   
+    <!-- Menu items -->
+
+
+  <div class="container row">
+      <div class="col-sm-6" >
+        <div class="card"style="border: 0px;">
+          <div class="card-body">            
+            <div style=" display: flex; justify-content: space-between;"><h5 class="card-title">Chicken Burger</h5>
+              <img src="new pic/menu-1.jpg" style="border-radius: 38px;">
+            </div>        
+            <p class="card-text">Ipsum ipsum clita erat amet dolor justo diam.</p>           
+          </div>          
+        </div>             
+      </div>
+
+      <div class="col-sm-6" >
+        <div class="card"style="border: 0px;">
+          <div class="card-body">            
+            <div style=" display: flex; justify-content: space-between;"><h5 class="card-title">Chicken Burger</h5>
+              <img src="new pic/menu-3.jpg" style="border-radius: 38px;">
+            </div>        
+            <p class="card-text">Ipsum ipsum clita erat amet dolor justo diam.</p>           
+          </div>          
+        </div>             
+      </div>
+  </div>
+
+  <div class="container row ps-3">
+    <div class="col-sm-6" >
+      <div class="card"style="border: 0px;">
+        <div class="card-body">            
+          <div style=" display: flex; justify-content: space-between;"><h5 class="card-title">Chicken Burger</h5>
+            <img src="new pic/menu-4.jpg" style="border-radius: 38px;">
+          </div>        
+          <p class="card-text">Ipsum ipsum clita erat amet dolor justo diam.</p>           
+        </div>          
+      </div>             
+    </div>
+
+    <div class="col-sm-6" >
+      <div class="card"style="border: 0px;">
+        <div class="card-body">            
+          <div style=" display: flex; justify-content: space-between;"><h5 class="card-title">Chicken Burger</h5>
+            <img src="new pic/menu-5.jpg" style="border-radius: 38px;">
+          </div>        
+          <p class="card-text">Ipsum ipsum clita erat amet dolor justo diam.</p>           
+        </div>          
+      </div>             
+    </div>
+</div>
+
+<div class="container row ps-3">
+  <div class="col-sm-6" >
+    <div class="card"style="border: 0px;">
+      <div class="card-body">            
+        <div style=" display: flex; justify-content: space-between;"><h5 class="card-title">Chicken Burger</h5>
+          <img src="new pic/menu-6.jpg" style="border-radius: 38px;">
+        </div>        
+        <p class="card-text">Ipsum ipsum clita erat amet dolor justo diam.</p>           
+      </div>          
+    </div>             
+  </div>
+
+  <div class="col-sm-6" >
+    <div class="card"style="border: 0px;">
+      <div class="card-body">            
+        <div style=" display: flex; justify-content: space-between;"><h5 class="card-title">Chicken Burger</h5>
+          <img src="new pic/menu-7.jpg" style="border-radius: 38px;">
+        </div>        
+        <p class="card-text">Ipsum ipsum clita erat amet dolor justo diam.</p>           
+      </div>          
+    </div>             
+  </div>
+</div>
+
+
+<div class="container row ps-3">
+  <div class="col-sm-6" >
+    <div class="card"style="border: 0px;">
+      <div class="card-body">            
+        <div style=" display: flex; justify-content: space-between;"><h5 class="card-title">Chicken Burger</h5>
+          <img src="new pic/menu-8.jpg" style="border-radius: 38px;">
+        </div>        
+        <p class="card-text">Ipsum ipsum clita erat amet dolor justo diam.</p>           
+      </div>          
+    </div>             
+  </div>
+
+  <div class="col-sm-6" >
+    <div class="card"style="border: 0px;">
+      <div class="card-body">            
+        <div style=" display: flex; justify-content: space-between;"><h5 class="card-title">Chicken Burger</h5>
+          <img src="new pic/menu-4.jpg" style="border-radius: 38px;">
+        </div>        
+        <p class="card-text">Ipsum ipsum clita erat amet dolor justo diam.</p>           
+      </div>          
+    </div>             
+  </div>
+</div>
+                      <!-- type of food -->
+<div class="container d-flex justify-content-evenly">
+   <div>  
+    <a href="veg.html" class="btn btn-warning btn-lg" role="button"><img src="headerimg/iconsfoodbutton.png">Vegetarian</a>
+   </div>
+  <div>
+     <a href="nonveg.html" class="btn btn-warning btn-lg" role="button"><img src="headerimg/icons8-poultry-leg-50.png">Vegetarian</a>
+    </div>
+</div>
+
+
+<div class=" container d-flex p-3" >
+  <div class="container p-5 text-white " style="border: 1px solid black; background-color:#073763;" > <h2>Reservation <br>
+    Book A Table Online</h2>
+   
+  <form class="row g-3" >
+    <div class="col-md-6">
+      <label for="inputEmail4" class="form-label">Your Name</label>
+      <input type="text" class="form-control" id="inputEmail4">
+    </div>
+    <div class="col-md-6">
+      <label for="inputPassword4" class="form-label">Email</label>
+      <input type="email" class="form-control" id="inputPassword4">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress" class="form-label">Special Request</label>
+      <input type="text" class="form-control" id="inputAddress" placeholder="comment">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress2" class="form-label">Date & Time</label>
+      <input type="text" class="form-control" id="inputAddress2" placeholder="00.00.0000">
+    </div>
+    <select class="form-select col-md-4" aria-label="Default select example">
+      <option selected>Open this select menu</option>
+      <option value="1">Briyani</option>
+      <option value="2">Fish Fry</option>
+      <option value="3">Egg rise</option>
+    </select>
+    <div class="col-md-6">
+      <label for="inputCity" class="form-label">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="col-md-4">
+      <label for="inputState" class="form-label">State</label>
+      <select id="inputState" class="form-select">
+        <option selected>choose</option>
+        <option>Tamil Nadu</option>
+        <option>Kerala</option>
+        <option>Pondicherry</option>
+      </select>
+    </div>
+    <div class="col-md-2">
+      <label for="inputZip" class="form-label">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label" for="gridCheck">
+          Check me out
+        </label>
+      </div>
+    </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-warning">Book Now</button>
+    </div>
+  </form>
+    </div>
+  
+  </div>
+  
+  <!-- Chefs*** -->
+  
+  <div class=" display-4 text-center fw-bold mt-5">
+    <h5 class="text-warning fst-italic fw-bold"> Team Members</h5>
+    <h1> Our Master Chefs</h1>
+  </div>
+  
+  
+  <div class=" row row-cols row-cols-xl-3 row-cols-xxl-4 row-cols-md-2 row-cols-sm-1 g-1 m-5 d-flex justify-content-evenly" >
+  
+            
+    <div class="card p-1 shadow d-flex align-items-center" style="width: 18rem;border-radius: 30px;">
+       <img src="new pic/team-1.jpg" class="card-img-top" alt="..." style= " width:250px; height: 250px; border-radius: 150px;">   
+        <h6 class="card-title mt-3">Ranveer Brar </h6>
+         <p>Grill Chef</p>
+         <div>
+          <img src="new pic/icons8-facebook-.png" style="height: 30px; width: 30px;">
+          <img src="new pic/icons8-instagram-50.png" style="height: 30px; width: 30px;">
+          <img src="new pic/icons8-twitter-50.png" style="height: 30px; width: 30px;">
+         </div>
+    </div>
+  
+    <div class="card p-1 shadow d-flex align-items-center" style="width: 19rem;border-radius: 30px;">
+      <img src="new pic/team-2.jpg" class="card-img-top" style="width:250px; height: 250px; border-radius: 150px;">
+      <div class="card-body">
+        <h6 class="card-title">Sanjay Thumma</h6>    
+        <p>Saucier</p>
+        <div>
+          <img src="new pic/icons8-facebook-.png" style="height: 30px; width: 30px;">
+          <img src="new pic/icons8-instagram-50.png" style="height: 30px; width: 30px;">
+          <img src="new pic/icons8-twitter-50.png" style="height: 30px; width: 30px;">
+          </div>
+      </div>
+    </div>
+  
+    <div class="card p-1  shadow d-flex align-items-center" style="width: 18rem;border-radius: 30px;">
+      <img src="new pic/team-3.jpg" class="card-img-top w-30" style= "width:250px; height: 250px; border-radius: 150px;">
+      <div class="card-body">
+        <h6 class="card-title">Kunal Kapu</h6> 
+        <p>Senior Chef</p>   
+        <div>
+          <img src="new pic/icons8-facebook-.png" style="height: 30px; width: 30px;">
+          <img src="new pic/icons8-instagram-50.png" style="height: 30px; width: 30px;">
+          <img src="new pic/icons8-twitter-50.png" style="height: 30px; width: 30px;">
+          </div>
+      </div>
+    </div>
+  
+  
+    <div class="card p-1  d-flex align-items-center shadow" style="width: 18rem;border-radius: 30px;">
+      <img src="new pic/team-4.jpg" class="card-img-top" style="width:250px; height: 250px; border-radius: 150px;">
+      <div class="card-body">
+        <h6 class="card-title">Hemolish</h6> 
+        <p>vegetable chef</p>     
+        <div>
+          <img src="new pic/icons8-facebook-.png" style="height: 30px; width: 30px;">
+          <img src="new pic/icons8-instagram-50.png" style="height: 30px; width: 30px;">
+          <img src="new pic/icons8-twitter-50.png" style="height: 30px; width: 30px;">
+          </div>
+      </div>
+    </div>
+  
+  </div>
+  
+  
+  <!-- Client review*** -->
+<!--   
+  <div class=" display-4 text-center fw-bold mt-5">
+    <h5 class="text-warning fst-italic fw-bold"> Testimonial </h5>
+    <h1> Our Clients Say!!!</h1>
+    </div>
+  
+    <div class="row pt-5">
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <img src="new pic/client1.jpg" style="border-radius: 50px; margin-top: 10px;"> <img src="new pic/yellow star.png" style="width: 40px; height: 40px;"><img src="new pic/yellow star.png"style="width: 40px; height: 40px;"><img src="new pic/yellow star.png"style="width: 40px; height: 40px;"><img src="new pic/yellow star.png"style="width: 40px; height: 40px;"><img src="new pic/yellow star.png"style="width: 40px; height: 40px;" >
+            <h5 class="card-title">Alison B</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.
+              Their brunch is awesome, I love the avocado 
+              toast and the California focaccia.
+            
+            </p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <img src="new pic/client3.jpg" style="border-radius: 50px; margin-top: 10px;"> <img src="new pic/yellow star.png"style="width: 40px; height: 40px;"><img src="new pic/yellow star.png"style="width: 40px; height: 40px;"><img src="new pic/yellow star.png"style="width: 40px; height: 40px;"><img src="new pic/yellow star.png"style="width: 40px; height: 40px;">
+            <h5 class="card-title">Darju M</h5>
+            <p class="card-text">Their brunch is awesome, I love the avocado 
+              toast and the California focaccia.
+              Pizza is really good as well.</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  
+    <div class="row d-flex justify-content-center pt-5">
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <img src="new pic/client2.jpg" style="border-radius: 50px; margin-top: 10px;"> <img src="new pic/yellow star.png"style="width: 40px; height: 40px;"><img src="new pic/yellow star.png"style="width: 40px; height: 40px;"><img src="new pic/yellow star.png"style="width: 40px; height: 40px;"><img src="new pic/yellow star.png"style="width: 40px; height: 40px;"><img src="new pic/-star-half-empty-50.png" style="width: 30px; height: 30px;">
+            <h5 class="card-title">Alison B</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.
+              Their brunch is awesome, I love the avocado 
+              toast and the California focaccia.
+            
+            </p>
+            
+          </div>
+        </div>
+      </div> -->
+
+
+ 
+                      
+                      
+                      
+<div class="call container-fluid d-flex justify-content-evenly" style="border: 1px solid black; margin-top: 150px; background-color: #073763;  ">
+  <div class="icon mt-5 text-white">
+    <h5 class="text-warning fst-italic fw-bold">Contact</h5>
+    <div class="d-flex mt-4">
+      <img src="new pic/white loc icon.png" style="padding-right: 20px;"> <p>123 Street, New York, USA</p>
+    </div>
+    <div class="d-flex ">
+      <img src="new pic/mobile.png" style="padding-right: 20px;"> <p>+012 345 67890 </p>
+    </div>
+    <div class="d-flex ">
+      <img src="new pic/email-32.png" style="padding-right: 20px;"> <p>ishudarju@gmail.com </p>
+    </div>
+    <div>
+      <img src="new pic/icons8-facebook-32.png" style="padding-left: 50px;"><img src="new pic/icons8-twitter-32.png"><img src="new pic/icons8-youtube-32.png">
+    </div>
+  </div>
+
+  <div class="icon1 mt-5 text-white">
+    <h5 class="text-warning fst-italic fw-bold">Opening</h5>
+    <div class="d-flex mt-4 ">
+       <p>Monday - Saturday </p>
+    </div>
+    <div>
+       <p>09AM - 09PM</p>
+    </div>
+    <div>
+      Sunday
+    </div>
+    <div>
+      10AM - 08PM
+    </div>
+  </div>
+
+
+ <div class="icon2 mt-5 text-white" id="con">
+      <h5 class="text-warning fst-italic fw-bold">Newsletter</h5>
+      <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+      <div class=" mb-3 " style="width: 300px;">
+        <label for="exampleFormControlInput1" class="form-label fw-bolder">Email address</label> 
+        <input type="email" class="form-control show1" id="exampleFormControlInput1" placeholder="name@example.com">
+        <label for="exampleFormControlInput1" class="form-label fw-bolder">Password</label> 
+        <input type="email" class="show1 form-control" id="exampleFormControlInput1" placeholder="******">
+        <div class=" mt-2 " style="padding-left: 240px;">
+          <button type="button" class="show btn btn-warning ">Sign</button>
+        </div>
+       
+      </div>
+
+
+      
+
+                     
+
+
+
+
+
+
+
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
+
+</body>
+</html>

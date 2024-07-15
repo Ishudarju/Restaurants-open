@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ishu's Restoran</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+
+.box
+  {
+   
+     background-image:url("headerimg/bgnonveg1.jpg");
+     background-size: cover;
+     height: 100vh; 
+     /* filter: blur(1px); */
+     /* -webkit-filter: blur(8px); */
+       
+
+  }  
+  .card 
+{
+      transition: transform 2s;
+ }
+
+
+ .card:hover  
+ {             
+      transform: scale(0.8);
+          
+ }  
+
+
+ .spiner 
+  {
+  height: 400px;
+  width: 400px; 
+  animation-name: rotation;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+    
+  
+ @keyframes rotation {
+  from {
+    transform: rotate(-360deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} 
+.nav-item:hover
+  {
+    
+    box-shadow: 0px 0px 5px yellow,0px 0px 25px yellow ,0px 0px 50px yellowgreen;
+
+  }
+  .navbar-brand:hover
+  {
+    box-shadow: 0px 0px 5px yellow,0px 0px 25px yellow ,0px 0px 50px yellowgreen;
+
+  }
+
+    </style>
+</head>
+<body>
+    
+</body>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-warning fw-bold">
+    <div class="container-fluid" id="touch" > 
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand fw-bold" href="#"> <img src="new pic/spoonblock.png" style="height: 30px; width: 30px;">Ishu's Restoran </a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="padding-left: 30px; padding-left: 280px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="bootstrap project.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="bootstrap project.html">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="bootstrap project.html">MENU</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="bootstrap project.html">CONTACT</a>
+          </li>          
+        </ul>   
+      </div>     
+        <div class="dropdown">
+            <a class="btn btn-warning dropdown-toggle fw-bold" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" >
+              CHECK NOW
+            </a>
+          
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Booking</a></li>
+              <li><a class="dropdown-item" href="#">Our Team</a></li>
+              <li><a class="dropdown-item" href="#">Testimonial</a></li>
+            </ul>
+        </div>
+       
+
+    </div>
+  </nav>
+
+  <div class="box bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white">
+         <h1 class="mb-3 h2">FOOD MENU</h1>
+        <h5 class="mb-3 h5">Non-Vegetarian</h5>
+         <p>
+      Food is one of the basic necessities of life
+      Food contains nutrients—substances essential for the growth, repair, and maintenance of body tissues and for the regulation of vital processes. Nutrients provide the energy our bodies need to function.
+          </p>   
+           <div class="spiner text-center">
+              <img src="new pic/menuhero.png" style="width: 400px;" height="400px" >
+           </div>        
+       
+         
+  </div>
+  
+
+
+
+  <div class="d-grid gap-4">
+    <div class="container"><div data-aos="fade-up"
+      data-aos-anchor-placement="bottom-bottom">
+ 
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="headerimg/non1grilled chicken.webp" style="height:250px;" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center fst-italic">Grilled Chicken - 350$</h5>          
+            </div>        
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="headerimg/non2.jpg" style="height:250px;" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center fst-italic">Beilagen - 200$</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="headerimg/non3crab-fry.webp" style="height:250px;" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center fst-italic">Crab Fry - 300$</h5>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+    <div class="container">
+      <div data-aos="fade-up"
+      data-aos-anchor-placement="bottom-bottom">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="headerimg/non4prawnfry.jpg" style="height:250px;" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center fst-italic">Prawn Fry - 350$</h5>          
+            </div>        
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="headerimg/non5biryani.jpg" style="height:250px;" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center fst-italic"> Biryani - 400$</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="headerimg/non6Egg-Fry.jpg" style="height:250px;" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center fst-italic">Egg-Fry- 200$</h5>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    
+    
+    <div class="container">
+      <div data-aos="fade-up"
+      data-aos-anchor-placement="bottom-bottom">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="headerimg/non7bacon-egg.jpg" style="height:250px;" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center fst-italic">Bacon-Egg- 150$</h5>          
+            </div>        
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="headerimg/non9mutton curry.jpg" style="height:250px;" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center fst-italic">Mutton Curry - 350$</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="headerimg/nov8kerala fish curry.jpg" style="height:250px;" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center fst-italic">kerala Fish Curry - 400$</h5>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div data-aos="fade-up"
+      data-aos-anchor-placement="bottom-bottom">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="headerimg/nonfishfry.jfif" style="height:250px;" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center fst-italic">Sommer Gravy - 190$</h5>          
+            </div>        
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="headerimg/nonchick10.jpg" style="height:250px;" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center fst-italic">Tomato Gravy - 100$</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="headerimg/non11.jfif" style="height:250px;" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center fst-italic">Rice Stock - 200$</h5>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+    </div>
+    
+    
+    
+    <div class="smooth text-center">
+      <a href="#touch">
+          <button type="button" class= "btn btn-" >
+            <img src="new pic/icons8-up-arrow-64.png">
+          </button>
+      </a>
+    </div>   
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
+
+
+</html>
